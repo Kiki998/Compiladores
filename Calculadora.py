@@ -9,7 +9,7 @@ opcion=int(input("""Ingrese la operación que desea realizar
 """))
 
 if opcion==5:
-    num=int(input("Ingrese el número al que le desea calcular la raíz cuadrada:"))
+    num=float(input("Ingrese el número al que le desea calcular la raíz cuadrada:"))
     print("La raíz cuadrada es:")
     print(math.sqrt(num))
 
