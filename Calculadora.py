@@ -8,11 +8,6 @@ opcion=int(input("""Ingrese la operación que desea realizar
 5=raíz cuadrada
 """))
 
-if opcion==5:
-    num=float(input("Ingrese el número al que le desea calcular la raíz cuadrada:"))
-    print("La raíz cuadrada es:")
-    print(math.sqrt(num))
-
 if opcion>0 and opcion<5:
     print("Ingrese dos números")
     num1=float(input("Número 1: "))
@@ -34,6 +29,11 @@ if opcion>0 and opcion<5:
             print(f"El resultado de la división es: {res}")
         else:
             print("No se puede dividir por 0")
+
+if opcion==5:
+    num=float(input("Ingrese el número al que le desea calcular la raíz cuadrada: "))
+    print("La raíz cuadrada es:")
+    print(math.sqrt(num))
 
 else:
     print("Debe seleccionar una de las opciones validas")
